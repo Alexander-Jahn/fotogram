@@ -40,8 +40,9 @@ body.no-scroll {
     width: 100%;
     max-width: var(--content-max-width);
     margin: 0 auto;
-    padding: 160px 135px;
+    padding: min(5vw, 160px) 135px;
     flex: 1;
+
 }
 
 /* HERO */
