@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./style.css">
+    <script src="./js/templates.js"></script>
     <script src="./main.js" defer></script>
 </head>
 
-<body>
+<body onload="init()">
     <header class="header">
         <div class="header_container">
-            <img src="./assets/icons/hp-logo.svg" alt="HP Logo">
+            <img src="./assets/icons/fav.svg" alt="HP Logo">
+            <h1>Fotogram</h1>
         </div>
     </header>
 
@@ -27,14 +29,15 @@
         </section>
 
         <section class="gallery">
-            <div class="gallery_grid"></div>
+            <div class="gallery_grid" id="galleryGrid"></div>
         </section>
     </main>
 
-    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" aria-hidden="true" tabindex="-1">
-
+    <dialog class="lightbox" id="lightbox"
+        aria-labelledby="lightboxTitle"
+        onclick="handleLightboxClick(event)">
         <div class="lightbox_content" id="lightboxContent"></div>
-    </div>
+    </dialog>
 
     <footer class="footer">
         <div class="footer_container">
