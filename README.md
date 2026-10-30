@@ -78,7 +78,7 @@ Fokusverwaltung für eine verbesserte Barrierefreiheit.
 
 1. Repository klonen
 
-git clone https://github.com/USERNAME/Fotogram.git
+git clone https://github.com/Alexander-Jahn/Fotogramm.git
 
 2. Projekt öffnen
 
