@@ -1,117 +1,87 @@
-📸 Fotogram
+# 📸 Fotogram
 
-Fotogram ist eine responsive Fotogalerie, die mit HTML, CSS und JavaScript entwickelt wurde. Das Projekt ermöglicht es, Bilder in einer übersichtlichen Galerie darzustellen und diese über eine interaktive Lightbox in einer vergrößerten Ansicht zu betrachten.
+Fotogram is a responsive photo gallery built with **HTML, CSS, and JavaScript**. The project features a clean, modern design and an interactive lightbox for viewing images in a larger format.
 
-🚀 Funktionen
+## 🚀 Features
 
-Responsive Design: Optimierte Darstellung für Desktop, Tablet und Smartphone.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Dynamic Gallery:** Images are automatically generated and displayed using JavaScript.
+- **Interactive Lightbox:** View images in an enlarged overlay.
+- **Image Navigation:** Navigate between images using buttons or keyboard controls.
+- **Image Counter:** Displays the current image position within the gallery.
+- **Dynamic Image Titles:** Automatically generates and formats image titles from filenames.
+- **Accessibility:** Keyboard navigation, focus management, and ARIA attributes.
+- **CSS Variables:** Centralized color management for consistent styling.
 
-Dynamische Galerie: Bilder werden automatisch über JavaScript in die Galerie eingefügt.
+## 🛠️ Technologies Used
 
-Interaktive Lightbox: Bilder können in einer vergrößerten Ansicht geöffnet werden.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Semantic structure |
+| CSS3 | Styling, layouts, and responsive design |
+| JavaScript | Dynamic gallery and lightbox functionality |
+| Git & GitHub | Version control |
 
-Bildnavigation: Wechsel zwischen Bildern über Navigationsbuttons oder die Tastatur.
+The project uses vanilla JavaScript without any additional frameworks or libraries.
 
-Bildzähler: Anzeige der aktuellen Bildposition innerhalb der Galerie.
+## 📂 Project Structure
 
-Dynamische Bildtitel: Bildtitel werden automatisch aus den Dateinamen generiert und formatiert.
+The project consists of the following main components:
 
-Barrierefreiheit: Unterstützung der Tastaturbedienung, Fokusverwaltung und ARIA-Attribute.
+- **HTML:** Website structure and gallery markup
+- **CSS:** Styling, responsive layouts, and design variables
+- **JavaScript:** Gallery generation, event handling, and lightbox functionality
+- **Assets:** Gallery images and interface icons
 
-Modulare Gestaltung: Zentrale Verwaltung von Farben über CSS-Variablen.
+## 🖼️ Lightbox
 
-🛠️ Verwendete Technologien
+Clicking on a gallery image opens the interactive lightbox.
 
-Technologie
+The lightbox includes:
 
-Verwendung
+1. Enlarged display of the selected image.
+2. Previous and next image navigation.
+3. Dynamic image titles and an image counter.
+4. Closing functionality using the close button or Escape key.
+5. Keyboard navigation using arrow keys.
+6. Focus management for improved accessibility.
 
-HTML5
+## 💻 Getting Started
 
-Semantische Struktur der Website
+**1. Clone the repository**
 
-CSS3
+```bash
+git clone https://github.com/Alexander-Jahn/fotogram.git
+```
 
-Layout, Design und Media Queries
+**2. Open the project**
 
-JavaScript
+Open the downloaded project folder in Visual Studio Code.
 
-Dynamische Galerie und Lightbox
+**3. Run the website**
 
-Git & GitHub
+Open `index.html` directly in your browser or use the **Live Server** extension in Visual Studio Code.
 
-Versionsverwaltung
+No additional dependencies or installation steps are required.
 
-Das Projekt verwendet keine zusätzlichen JavaScript-Frameworks oder Bibliotheken.
+## 📱 Responsive Design
 
-📂 Projektstruktur
+The website uses CSS media queries to adapt to different screen sizes.
 
-Die wichtigsten Bestandteile des Projekts:
+Responsive adjustments include:
 
-HTML: Aufbau und Struktur der Fotogalerie
+- Gallery image layout and dimensions
+- Spacing and padding
+- Lightbox dimensions and positioning
+- Image aspect ratios
+- Navigation controls
 
-CSS: Gestaltung, responsive Layouts und CSS-Variablen
+## 🎯 Project Goal
 
-JavaScript: Bilderverwaltung, Event-Handling und Lightbox-Funktionen
+The goal of this project is to practice and improve fundamental front-end development skills.
 
-Assets: Bilder und Icons der Website
+The main focus is on responsive web design, JavaScript DOM manipulation, interactive user interfaces, and accessible web development.
 
-🖼️ Lightbox
+## 📄 License
 
-Durch einen Klick auf ein Galeriebild öffnet sich die Lightbox.
-
-Die Lightbox bietet folgende Funktionen:
-
-Vergrößerte Darstellung des ausgewählten Bildes.
-
-Navigation zum vorherigen und nächsten Bild.
-
-Anzeige des Bildtitels und der aktuellen Bildnummer.
-
-Schließen über den Schließen-Button oder die Escape-Taste.
-
-Tastatursteuerung über die Pfeiltasten.
-
-Fokusverwaltung für eine verbesserte Barrierefreiheit.
-
-💻 Installation und Verwendung
-
-1. Repository klonen
-
-git clone https://github.com/Alexander-Jahn/Fotogramm.git
-
-2. Projekt öffnen
-
-Öffne den heruntergeladenen Projektordner in Visual Studio Code.
-
-3. Website starten
-
-Öffne die Datei index.html in deinem Browser oder verwende die Erweiterung Live Server in Visual Studio Code.
-
-Da ausschließlich HTML, CSS und JavaScript verwendet werden, ist keine zusätzliche Installation von Abhängigkeiten notwendig.
-
-📱 Responsive Design
-
-Die Website passt sich mithilfe von CSS Media Queries automatisch an unterschiedliche Bildschirmgrößen an.
-
-Dabei werden unter anderem folgende Elemente angepasst:
-
-Anordnung und Größe der Galeriebilder
-
-Abstände und Seitenränder
-
-Darstellung der Lightbox
-
-Bildgrößen und Seitenverhältnisse
-
-Navigation und Bedienelemente
-
-🎯 Projektziel
-
-Ziel des Projekts ist die praktische Anwendung und Vertiefung grundlegender Webentwicklungstechniken.
-
-Im Mittelpunkt stehen die Erstellung responsiver Layouts, die dynamische Manipulation des DOM mit JavaScript sowie die Umsetzung einer benutzerfreundlichen und barrierearmen Bildergalerie.
-
-📄 Lizenz
-
-Dieses Projekt wurde zu Lern- und Übungszwecken erstellt. Eine gesonderte Lizenz wurde bisher nicht festgelegt.
+This project was created for educational and learning purposes. No specific license has been assigned.
