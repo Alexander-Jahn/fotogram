@@ -274,6 +274,7 @@ body.no-scroll {
 
     .lightbox_content {
         max-width: 90vw;
+        max-height: 80vh;
         padding: 32px 21.5px;
     }
 
