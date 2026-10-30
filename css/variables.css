@@ -1,0 +1,22 @@
+:root {
+    /* Colors */
+    --primary-blue: #06171E;
+    --primary-head-foot: #09212A;
+    --primary-border: #124658;
+    --primary-white: #FFFFFF;
+    --primary-border-hover: #6BC1E1;
+    --primary-pressing: #0D3240;
+    --primary-arrow: #FD5B4F;
+    --primary-grey: #99ACB3;
+    --favorit-default: #FFFFFF;
+    --favorit-clicked: #FD5B4F;
+    --counter: #F5F5F5;
+
+    /* Layout */
+    --content-max-width: 1440px;
+
+    /* Gallery */
+    --gallery-image-size: 150px;
+    --gallery-gap: 16px;
+
+}

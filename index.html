@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogram</title>
+
+    <link rel="icon" type="image/x-Icon" href="./assets/icons/Fav.png">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container">
+            <img src="./assets/icons/HP-Logo.png" alt="HP Logo">
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <h1>Your personal photo album</h1>
+        </section>
+        <section class="gallery">
+            <div class="gallery_grid">
+            </div>
+        </section>
+    </main>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle"
+        aria-hidden="true" tabindex="-1">
+        <div class="lightbox_content">
+            <div class="lightbox_header">
+                <h2 id="lightboxTitle"></h2>
+                <button id="lightboxClose" aria-label="Close image"><img src="./assets/icons/close.png" alt=""></button>
+            </div>
+            <img id="lightboxImage" alt="">
+            <div class="lightbox_navigation">
+                <button id="lightboxPrev" aria-label="Previous image"><img src="./assets/icons/Arrow-Right.png"
+                        alt=""></button>
+                <span id="lightboxCounter" role="status" aria-live="polite" aria-atomic="true"></span>
+                <button id="lightboxNext" aria-label="Next image"><img src="./assets/icons/Arrow-Right.png"
+                        alt=""></button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_container">
+            <img src="./assets/icons/DA-Logo.png" alt="DA Logo">
+            <p>&copy; 2026 Alexander Jahn</p>
+        </div>
+    </footer>
+</body>
+
+</html>
