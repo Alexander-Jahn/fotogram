@@ -40,7 +40,7 @@ body.no-scroll {
     width: 100%;
     max-width: var(--content-max-width);
     margin: 0 auto;
-    padding: min(5vw, 160px) 135px;
+    padding: min(vw, 160px) 135px;
     flex: 1;
 
 }
@@ -148,8 +148,8 @@ body.no-scroll {
 }
 
 .lightbox_content {
-    width: 594px;
-    height: min(760px, 90dvh);
+    width: 700px;
+    height: min(850px, 90dvh);
     max-width: 90vw;
     background-color: var(--primary-head-foot);
     padding: 56px 64px;
